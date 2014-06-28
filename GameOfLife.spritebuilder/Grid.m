@@ -21,7 +21,7 @@ static const int GridColumns = 10;
 
 - (void)onEnter
 {
-    [self onEnter];
+    [super onEnter];
     [self setupGrid];
 
     self.userInteractionEnabled = YES;
