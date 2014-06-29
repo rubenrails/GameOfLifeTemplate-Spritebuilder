@@ -32,13 +32,13 @@
 
 - (void)play
 {
-    [self schedule:@selector(step:) interval:0.5f];
+    [self schedule:@selector(step) interval:0.5f];
 }
 
 
 - (void)pause
 {
-    [self unschedule:@selector(step:)];
+    [self unschedule:@selector(step)];
 }
 
 
